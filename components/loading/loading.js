@@ -10,7 +10,7 @@ Component({
     },
     src: {
       type: String,
-      value: 'http://img.lanrentuku.com/img/allimg/1212/5-121204193R1-51.gif'
+      value: "https://wx-open-img.xizi.com/FoqGKcDZWZa6w7lKd9gzW4ZxGTGc.gif"
     }
   },
 

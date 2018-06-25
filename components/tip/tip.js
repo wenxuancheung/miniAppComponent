@@ -4,14 +4,14 @@ Component({
    * 组件的属性列表
    */
   properties: {
-    voteTip: {
+    Tip: {
       type: Object,
       value: 'transparent',
       observer() {
         this.setData({
           tip: {
             ...this.data.tip,
-            ...this.properties.voteTip
+            ...this.properties.Tip
           }
         })
       }
