@@ -1,0 +1,59 @@
+/* components/tip/tip.wxss */
+.shadow{
+    position:fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    background:#000;
+    opacity: 0.5;
+    z-index:1000;
+}
+.components-voteTip{
+    width: 506rpx;
+    height: 325rpx;
+    border-radius: 12rpx;
+    position:fixed;  
+    top:0;  
+    right:0;  
+    left:0;  
+    bottom:0;  
+    margin:auto;   
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    z-index:1100;
+}
+.components-voteTip-content{
+    width: 395rpx;
+    font-family: PingFang-SC;
+    font-size: 28rpx;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+}
+.components-voteTip-title{
+    width:200rpx;
+    height: 53rpx;
+    font-family: PingFangSC;
+    font-size: 38rpx;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    margin-top:20rpx
+}
+.components-voteTip-button{
+    width: 266rpx;
+    height: 70rpx;
+    border-radius: 12rpx;
+    font-size: 32rpx;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

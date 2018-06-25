@@ -1,0 +1,8 @@
+<view class="inform ranking-button" wx:if="{{info}}" style="background-color: {{backgroundColor}};colo:{{color}}">
+    <view class="inform-icon" style="background :url({{imgSrc}});background-size : 100% 100%;" mode='aspectFit'></view>
+    <view class='inform-swiper'>
+        <view class='swiper'>
+            {{info}}<text class='content-space'></text>{{info}}<text class='content-space'></text>{{info}}
+        </view>
+    </view>
+</view>

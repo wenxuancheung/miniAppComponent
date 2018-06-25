@@ -1,0 +1,9 @@
+<!--components/tip/tip.wxml-->
+<view class="components-voteTip" wx:if="{{showModal}}" style="background-color:{{tip.voteTipTotalBackgroundColor}}">
+    <view class="components-voteTip-title" style="color:{{tip.voteTipTitleColor}}">{{tip.voteTipTitleText}}</view>
+    <view class="components-voteTip-content" style="color:{{tip.voteTipContentColor}}">{{tip.voteTipContentText}}</view>
+    <button class="components-voteTip-button" style="color:{{tip.voteTipButtonTextColor}};background-color:{{tip.voteTipButtonBackgroundColor}}" bindtap="confirm">{{tip.voteTipButtonText}}</button>
+</view>
+<view class="shadow" wx:if="{{showModal}}"></view>
+
+

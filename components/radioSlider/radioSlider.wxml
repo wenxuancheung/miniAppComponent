@@ -1,0 +1,12 @@
+<!--components/radioSlider/radioSlider.wxml-->
+<view class='components-radio'>
+    <view class="components-radio-top">
+        <view class="components-radio-paly-button {{!isPlay==true? 'components-radio-button-display': ''}}" bindtap="listenRadio" ></view>
+        <view class="components-radio-stop-button {{isPlay==true? 'components-radio-button-display': ''}}" bindtap="stopRadio"></view>
+        <slider class="components-radio-slider" bindchange="sliderChange" backgroundColor="#dddddd" activeColor="#32b251" bindchanging="changing" block-size='12' step="0.01" value="{{value}}" block-color="#7cd591"/>
+    </view>
+    <view class="components-radio-bottom">
+        <view class="components-radio-bottom-left-text">{{radioSlider.beginMinuteTime}}:{{radioSlider.beginSecondTime}}</view>
+        <view class="components-radio-bottom-right-text">{{radioSlider.totalMinuteTime}}:{{radioSlider.totalSecondTime}}</view>
+    </view>
+</view>

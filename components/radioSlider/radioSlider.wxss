@@ -1,0 +1,85 @@
+/* components/radioSlider/radioSlider.wxss */
+.components-radio{
+  position: relative;
+    width: 100%;
+    height: 120rpx;
+    border-radius: 8rpx;
+    background-color: #f9f9f9;
+    /* border: solid 1rpx #eeeeee; */
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    margin-bottom: 35rpx;
+  }
+  .components-radio-paly-button{
+    margin-right: 20rpx;
+    width: 48rpx;
+    height: 49rpx;
+    /* border: solid 1rpx #32b251; */
+    border-radius: 50%;
+    /* margin-left:13rpx; */
+    padding-left:0;
+    padding-right:0;
+    display: inline-block;
+    background: url(https://wx-open-img.xizi.com//FhKreq7BvSPAQEy2RJqqU7fh-ak5.png) no-repeat;
+    background-size: 100%;
+    /* position: absolute; */
+  }
+  button::after{
+    border: none
+  }
+  .components-radio-stop-button{
+    margin-right: 20rpx;
+    width: 48rpx;
+    height: 49rpx;
+    border-radius: 50%;
+    padding-left:0;
+    padding-right:0;
+    display: inline-block;
+    background: url(https://wx-open-img.xizi.com//FhTzupmUTLLvCJ09BJfrYY6_DXDA.png) no-repeat;
+    background-size: 100%;
+  }
+  .components-radio-button-display{
+      display: none
+  }
+  .components-radio-slider{
+    width: 520rpx;
+    display: inline-block;
+    margin: 0;
+    /* position: absolute;
+    bottom: -6rpx; */
+
+  }
+  .components-radio-top{
+     width: 628rpx;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+    /* position: relative;
+    top: 4rpx;
+    left: 0;
+    display: block */
+
+  }
+  .components-radio-bottom{
+    font-size: 15rpx;
+    width: 520rpx;
+    height: 30rpx;
+    position: absolute;
+    top: 78rpx;
+    left: 87rpx;
+    display: flex;
+    justify-content: space-between;
+  }
+  .components-radio-bottom-left-text{
+    height: 30rpx;
+    display: inline-block;
+    font-size: 22rpx;
+    color: #666;
+  }
+  .components-radio-bottom-right-text{
+    height: 30rpx;
+    display: inline-block;
+    font-size: 22rpx;
+    color: #666;
+  }
