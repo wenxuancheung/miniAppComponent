@@ -3,6 +3,7 @@
 ## components
 ### horseRaceLamp跑马灯组件
 #### 效果
+![image](https://note.youdao.com/favicon.ico)
 #### 使用：
 ```
  {
@@ -48,6 +49,7 @@
   //src放入要播放的音频路径
   <radioSlider src="路径"></radioSlider>
 ```
+
 ### tip 弹窗组件
 #### 效果
 #### 使用：
@@ -62,13 +64,31 @@
 ```
   //Tip放入要显示的文本
   //wxml
-  <tip Tip=""></tip>
-  //如
-  //js
-  const msg = 'voteTip.voteTipContentText'
-  const title = 'voteTip.voteTipTitleText'
-  this.setData({
-        [msg] : '你已经投票成功',
-        [title] : '投票成功',
-  })
+  <tip Tip="" tipTitle="标题" tipContent="内容"></tip>
+```
+
+### infoSwiper 信息轮播组件
+#### 效果
+#### 使用：
+```
+ {
+  "usingComponents": {
+    "tip": "/components/infoSwiper/infoSwiper"
+ }
+ 
+```
+#### 引用
+```
+<infoSwiper swiperContent="轮播内容" width="长度"></infoSwiper>
+//如wxml
+<infoSwiper swiperContent="{{content}}" width="500"></infoSwiper>
+//js
+content:[
+  {
+    info:'这是组件'
+  },
+  {
+    info:'这是InfoSwiper'
+  }
+]
 ```
