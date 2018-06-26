@@ -15,6 +15,14 @@ Component({
           }
         })
       }
+    },
+    tipTitle:{
+      type: String,
+      value:'title'
+    },
+    tipContent:{
+      type: String,
+      value:'content'
     }
   },
 
@@ -26,8 +34,6 @@ Component({
     tip: {
       voteTipTotalBackgroundColor: '#fff',
       voteTipTitleColor: '#222222;',
-      voteTipTitleText: '',
-      voteTipContentText: '',
       voteTipButtonTextColor: '#ffffff',
       voteTipButtonText: '确定',
       voteTipButtonBackgroundColor: '#fccf35;',

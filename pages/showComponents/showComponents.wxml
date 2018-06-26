@@ -17,4 +17,4 @@
     </view>
 </scroll-view>
 <loading isShow="{{showLoading}}"></loading>
-<tip></tip>
+<tip id="Tip"  bindconfirm="closeVoteTip" Tip="{{tip}}" tipTitle="{{tipTitle}}" tipContent="{{tipContent}}"></tip>
