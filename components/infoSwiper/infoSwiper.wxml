@@ -1,0 +1,15 @@
+<!--components/infoSwiper/infoSwiper.wxml-->
+<view>
+    <view class="prize-winner" wx:if="{{voteSwiper.haveJoinNumber}}" style="width:{{width}}rpx">
+        <swiper autoplay="{{voteSwiper.autoplay}}" interval="{{voteSwiper.interval}}" vertical="{{voteSwiper.vertical}}" circular="true" duration="1000" interval="1000">
+            <block wx:for="{{swiperContent}}" wx:key="id">
+                <swiper-item >
+                    <view class="swiper-text">
+                        {{item.info}}
+                    </view>
+                </swiper-item>
+            </block>
+        </swiper>
+    </view>
+    <view class="swiper-shade"  wx:if="{{voteSwiper.haveJoinNumber}}" style="width:{{width}}rpx"></view>
+</view>

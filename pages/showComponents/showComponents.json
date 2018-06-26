@@ -1,0 +1,9 @@
+{
+    "usingComponents": {
+        "loading": "../../components/loading/loading",
+        "tip": "../../components/tip/tip",
+        "radioSlider": "../../components/radioSlider/radioSlider",
+        "horseRaceLamp": "../../components/horseRaceLamp/horseRaceLamp",
+        "infoSwiper": "../../components/infoSwiper/infoSwiper"
+    }
+  }

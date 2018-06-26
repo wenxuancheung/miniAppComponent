@@ -1,0 +1,26 @@
+/* pages/showComponents/showComponents.wxss */
+.loading-class{
+    width: 100vw;
+    height: 100vh;    
+}
+.loading-class-button{
+    position:fixed;  
+    top:0;  
+    right:0;  
+    left:0;  
+    bottom:0;  
+    margin:auto;   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 125rpx;
+    height: 75rpx;
+    border-radius: 12rpx;
+    font-size: 30rpx;
+    background-color: #FCCF35;
+    color:#fff
+}
+.infoSwiper-class{
+    width: 50rpx;
+    height: 30rpx;
+}
